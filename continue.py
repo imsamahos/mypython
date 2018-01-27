@@ -1,5 +1,5 @@
 while True:
-    s = input('Enter something : ')
+    s = raw_input('Enter something : ')
     if s == 'quit':
         break
     if len(s) < 3:
