@@ -8,6 +8,7 @@ gstAmount=0
 billAmount = int(raw_input('Enter the bill amount: '))
 tipRate = int(raw_input('Enter the tip rate: '))
 
+
 tip = billAmount * tipRate/100
 total =  billAmount + tip
 gstAmount = int(total * gstRate)
