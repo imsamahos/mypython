@@ -3,7 +3,7 @@
 ### Then a message is displayed if inputted integer is same as the given integer
 ### Save program as if.py
 
-number = 23
+number = 25
 guess = int(input('Enter an integer: '))
 
 if guess == number:
