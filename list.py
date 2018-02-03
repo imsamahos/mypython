@@ -1,4 +1,4 @@
-shoplist = ['apple','mango','banana','carrot']
+shoplist = ['apple','mango','banana','carrot','pineapples']
 print('I have', len(shoplist), 'items to purchase')
 
 print('These items are', shoplist)
