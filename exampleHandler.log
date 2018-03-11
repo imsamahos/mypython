@@ -1,0 +1,3 @@
+2018-02-17 04:49:34,019 - MY_FIRST_LOGGER - DEBUG - This message should go to the log file
+2018-02-17 04:49:34,019 - MY_FIRST_LOGGER - INFO - So should this
+2018-02-17 04:49:34,019 - MY_FIRST_LOGGER - WARNING - And this, too

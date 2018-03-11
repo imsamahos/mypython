@@ -22,5 +22,9 @@ try:
   
 except Exception as exception:
   #log here about the exception
-  print("An exception of type {0} occurred. Arguments:\n{1!r}".format(type(exception).__name__, exception.args))
-#print("We display error directly to our consumers:{0}".format(exception))
+  #library  - async way to push logs into another system
+  # logging.warning('And this, too')
+  ##### async way to do logging - dispatch this for me without waiting
+  #and then show user a friedly message or any appropriate msg so that user can take further action
+  #print("An exception of type {0} occurred. Arguments:\n{1!r}".format(type(exception).__name__, exception.args))
+   print("We display error directly to our consumers:{0}".format(exception))
